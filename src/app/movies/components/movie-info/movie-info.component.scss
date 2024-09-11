@@ -1,0 +1,42 @@
+.episode {
+    &.summary {
+        border: solid 1px #cbb8b8;
+        border-radius: 0.5rem;
+
+        .plot {
+            text-overflow: ellipsis;
+            width: 90%;
+            overflow: hidden;
+            display: inline-block;
+            height: 1rem;
+            white-space: nowrap;
+        }
+    }
+
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    &.selected {
+        background-color: #b6d2f7;
+    }
+
+    cursor: pointer;
+
+    .title-container {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .title {
+        font-weight: bold;
+        display: inline;
+    }
+
+    .duration {
+        font-size: 0.75rem;
+        color: gray;
+        display: block;
+    }
+
+}

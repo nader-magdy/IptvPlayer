@@ -1,0 +1,4 @@
+docker rm <container_id>
+docker build -t iptv-player:v1.0.0 -f ./Dockerfile .  
+
+docker run --name iptv-player -p 5870:80 -d iptv-player:v1.0.0

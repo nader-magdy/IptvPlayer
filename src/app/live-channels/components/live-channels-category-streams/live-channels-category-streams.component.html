@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col">
+        <div *ngFor="let stream of streams$ | async">
+            <a [href]="playerSource + '/' + stream.stream_id">{{stream.name}}</a>
+        </div>
+        
+    </div>
+    <div class="col"></div>
+</div>
+
+

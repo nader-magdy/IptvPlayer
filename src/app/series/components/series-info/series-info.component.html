@@ -1,0 +1,82 @@
+<div class="container" *ngIf="seriesInfo$ | async as series">
+    <div class="row">
+        <div class="col text-center">
+            <h2>{{series.info.name}}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <!-- player -->
+            <div class="row">
+                <div class="col">
+                    <vg-player style="height: 70vh;" (onPlayerReady)="onPlayerReady($event)">
+                        <video [vgMedia]="$any(media)" #media id="singleVideo" preload="auto" controls autoplay>
+                            <source *ngFor="let source of videoSources" [src]="source" type="video/mp4">
+                        </video>
+                    </vg-player>
+                </div>
+            </div>
+            <div class="row episode" *ngIf="selectedEpisode as episode">
+                <div class="col">
+                    <div class="title-container">
+                        <span>{{episode.episode_num}} - </span>
+                        <span class="title">{{episode.title}}</span>
+                    </div>
+                    <span class="duration">{{episode.info.duration}}</span>
+                    <div [title]="episode.info.plot">{{episode.info.plot}}</div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-4" style="max-height: 90vh; overflow-y: scroll;">
+            <div class="row">
+                <div class="col">
+                    <img style="max-height: 20vh;" [src]="series.info.cover | safe:'resourceUrl'">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>
+                        {{series.info.plot}}
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a target="_blank" *ngIf="series.info.youtube_trailer"
+                        [href]="('https://www.youtube.com/watch?v=' + series.info.youtube_trailer) | safe:'resourceUrl'">Trailer</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <mat-accordion>
+
+                        <mat-expansion-panel *ngFor="let episodes of series.episodes | keyvalue">
+                            <mat-expansion-panel-header>
+                                <mat-panel-title>
+                                    Season {{episodes.key}}
+                                </mat-panel-title>
+                                <mat-panel-description>
+                                    Episodes ({{episodes.value.length}})
+                                </mat-panel-description>
+                            </mat-expansion-panel-header>
+                            <div class="row episode summary" *ngFor="let episode of episodes.value" (click)="play(episode)" [ngClass]="{ 'selected' : selectedEpisode?.id == episode.id }">
+                                <div class="col-2 d-flex align-items-center">
+                                    <img role="button" style="width:25px" 
+                                        src="../../../../assets/play.svg" alt="Photo of a play icon">
+                                </div>
+                                <div class="col-10">
+                                    <span>{{episode.episode_num}} - </span>
+                                    <span class="title">{{episode.title}}</span>
+                                    <span class="duration">{{episode.info.duration}}</span>
+                                    <div [title]="episode.info.plot" class="plot">{{episode.info.plot}}</div>
+                                </div>
+                            </div>
+                        </mat-expansion-panel>
+                    </mat-accordion>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,11 @@
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+        <mat-label>Search Category</mat-label>
+        <input matInput placeholder="Series Name" (change)="onSearchChange()" [(ngModel)]="searchTerm" name="searchTerm">
+    </mat-form-field>
+</form>
+<mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let series of filteredSeries">
+        <a [routerLink]="['/series/info']" [queryParams]="{'series-id' : series.series_id}">{{series.name}}</a>
+    </mat-list-item>
+</mat-list>

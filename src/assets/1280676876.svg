@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg3705" viewBox="0 0 668.78 797.09" version="1.1">
+  <defs id="defs3707">
+    <radialGradient id="radialGradient4549" gradientUnits="userSpaceOnUse" cy="637.12" cx="-558.54" gradientTransform="matrix(.99956 0 0 .82015 -.24471 116.13)" r="222.19">
+      <stop id="stop4275" stop-color="#b3b3b3" offset="0"/>
+      <stop id="stop4277" stop-color="#6d6d6d" offset="1"/>
+    </radialGradient>
+    <radialGradient id="radialGradient4551" gradientUnits="userSpaceOnUse" cy="637.12" cx="-563.16" gradientTransform="matrix(1.7554 -2.904e-7 2.3692e-7 1.5991 430.01 -380.9)" r="177.96">
+      <stop id="stop4257" stop-color="#c8c8c8" offset="0"/>
+      <stop id="stop4259" stop-color="#141414" offset="1"/>
+    </radialGradient>
+  </defs>
+  <g id="layer1" transform="translate(807.38 -58.05)">
+    <g id="g4501">
+      <path id="path4386" stroke="#000" stroke-width="1px" d="m-360.55 428.34 146.38-359-1.5408-10.786 21.571 10.786-15.408 3.0816-141.75 360.55-9.2448-4.6224z"/>
+      <path id="path4384" stroke="#000" stroke-width="1px" d="m-360.55 428.34-146.38-359 1.5408-10.786-21.571 10.786 15.408 3.0816 141.75 360.55 9.2448-4.6224z"/>
+      <rect id="rect3729" ry="59.305" height="431.42" width="668.78" y="423.72" x="-807.38" fill="#784421"/>
+      <rect id="rect3731" ry="20.785" height="374.41" width="629.82" y="451.45" x="-788.89" fill="#4d4d4d"/>
+      <rect id="rect3733" ry="14.236" height="349.57" width="429.69" stroke="#000" y="463.87" x="-773.38" stroke-width="14.688" fill="url(#radialGradient4549)"/>
+      <rect id="rect4245" ry="81.019" height="329.73" width="408.31" y="473.02" x="-762.69" fill="url(#radialGradient4551)"/>
+      <rect id="rect4263" ry="14.468" transform="scale(-1,1)" height="355.27" width="158.33" stroke="#000" y="461.02" x="170.45" stroke-width="8.9884" fill="#b3b3b3"/>
+      <g id="g4327" transform="matrix(.86170 0 0 .86170 146.82 294.21)">
+        <path id="path4283" d="m-405.23 263.48c0 39.995-32.422 72.417-72.417 72.417s-72.417-32.422-72.417-72.417 32.422-72.417 72.417-72.417 72.417 32.422 72.417 72.417z" transform="translate(18.49 20.03)"/>
+        <path id="path4285" d="m-405.23 263.48c0 39.995-32.422 72.417-72.417 72.417s-72.417-32.422-72.417-72.417 32.422-72.417 72.417-72.417 72.417 32.422 72.417 72.417z" transform="matrix(.72340 0 0 .72340 -114.4 92.907)" stroke="#fff" stroke-width="6.3906" fill="none"/>
+        <rect id="rect4287" ry="6.8094" height="100.23" width="13.619" stroke="#fff" stroke-linecap="round" y="233.05" x="-466.85" stroke-width="4.623" fill="#fff"/>
+        <g id="g4305" fill="#fff">
+          <g id="g4295">
+            <path id="path4291" d="m-463.73 352.81l8.4527-0.0398-4.2227-12.049-4.23 12.089z"/>
+            <path id="path4293" d="m-463.73 214.61l8.4527 0.0398-4.2227 12.049-4.23-12.089z"/>
+          </g>
+          <g id="g4299" transform="matrix(.0076362 -.99997 .99997 .0076362 -739.7 -177.95)">
+            <path id="path4301" d="m-463.73 352.81l8.4527-0.0398-4.2227-12.049-4.23 12.089z"/>
+            <path id="path4303" d="m-463.73 214.61l8.4527 0.0398-4.2227 12.049-4.23-12.089z"/>
+          </g>
+        </g>
+        <g id="g4313" fill="#fff" transform="matrix(.70711 -.70711 .70711 .70711 -335.21 -241.84)">
+          <g id="g4315">
+            <path id="path4317" d="m-463.73 352.81l8.4527-0.0398-4.2227-12.049-4.23 12.089z"/>
+            <path id="path4319" d="m-463.73 214.61l8.4527 0.0398-4.2227 12.049-4.23-12.089z"/>
+          </g>
+          <g id="g4321" transform="matrix(.0076362 -.99997 .99997 .0076362 -739.7 -177.95)">
+            <path id="path4323" d="m-463.73 352.81l8.4527-0.0398-4.2227-12.049-4.23 12.089z"/>
+            <path id="path4325" d="m-463.73 214.61l8.4527 0.0398-4.2227 12.049-4.23-12.089z"/>
+          </g>
+        </g>
+      </g>
+      <g id="g4346" transform="matrix(.48569 .71178 -.71178 .48569 175.96 912.53)">
+        <path id="path4348" d="m-405.23 263.48c0 39.995-32.422 72.417-72.417 72.417s-72.417-32.422-72.417-72.417 32.422-72.417 72.417-72.417 72.417 32.422 72.417 72.417z" transform="translate(18.49 20.03)"/>
+        <path id="path4350" d="m-405.23 263.48c0 39.995-32.422 72.417-72.417 72.417s-72.417-32.422-72.417-72.417 32.422-72.417 72.417-72.417 72.417 32.422 72.417 72.417z" transform="matrix(.72340 0 0 .72340 -114.4 92.907)" stroke="#fff" stroke-width="6.3906" fill="none"/>
+        <rect id="rect4352" ry="6.8094" height="100.23" width="13.619" stroke="#fff" stroke-linecap="round" y="233.05" x="-466.85" stroke-width="4.623" fill="#fff"/>
+        <g id="g4354" fill="#fff">
+          <g id="g4356">
+            <path id="path4358" d="m-463.73 352.81l8.4527-0.0398-4.2227-12.049-4.23 12.089z"/>
+            <path id="path4360" d="m-463.73 214.61l8.4527 0.0398-4.2227 12.049-4.23-12.089z"/>
+          </g>
+          <g id="g4362" transform="matrix(.0076362 -.99997 .99997 .0076362 -739.7 -177.95)">
+            <path id="path4364" d="m-463.73 352.81l8.4527-0.0398-4.2227-12.049-4.23 12.089z"/>
+            <path id="path4366" d="m-463.73 214.61l8.4527 0.0398-4.2227 12.049-4.23-12.089z"/>
+          </g>
+        </g>
+        <g id="g4368" fill="#fff" transform="matrix(.70711 -.70711 .70711 .70711 -335.21 -241.84)">
+          <g id="g4370">
+            <path id="path4372" d="m-463.73 352.81l8.4527-0.0398-4.2227-12.049-4.23 12.089z"/>
+            <path id="path4374" d="m-463.73 214.61l8.4527 0.0398-4.2227 12.049-4.23-12.089z"/>
+          </g>
+          <g id="g4376" transform="matrix(.0076362 -.99997 .99997 .0076362 -739.7 -177.95)">
+            <path id="path4378" d="m-463.73 352.81l8.4527-0.0398-4.2227-12.049-4.23 12.089z"/>
+            <path id="path4380" d="m-463.73 214.61l8.4527 0.0398-4.2227 12.049-4.23-12.089z"/>
+          </g>
+        </g>
+      </g>
+      <path id="path4382" d="m-180.27 791.97c0 7.6586-6.2085 13.867-13.867 13.867-7.6586 0-13.867-6.2085-13.867-13.867 0-7.6586 6.2085-13.867 13.867-13.867 7.6586 0 13.867 6.2085 13.867 13.867z"/>
+      <path id="path4443" d="m-656.85 734.09v-159.88h-59.724v-21.392h143.68v21.392h-59.971v159.88z" stroke="#000" stroke-width="5.6" fill="#fff"/>
+      <path id="path4445" d="m-496.35 734.09-70.234-181.27h25.967l47.111 131.69c3.7919 10.552 6.9656 20.444 9.5212 29.676 2.8027-9.8921 6.0588-19.784 9.7685-29.676l48.966-131.69h24.483l-70.976 181.27z" stroke="#000" stroke-width="5.6" fill="#fff"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>television,TV</dc:title>
+        <dc:date>2010-08-01T15:34:36</dc:date>
+        <dc:description>television,TV,bujung</dc:description>
+        <dc:source>http://openclipart.org/detail/75865/televisiontv-by-aungkarns</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>aungkarns</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>TV</rdf:li>
+            <rdf:li>bujung</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>television</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

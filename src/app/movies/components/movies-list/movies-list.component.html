@@ -1,0 +1,11 @@
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+        <mat-label>Search Category</mat-label>
+        <input matInput placeholder="Movie Name" (change)="onSearchChange()" [(ngModel)]="searchTerm" name="searchTerm">
+    </mat-form-field>
+</form>
+<mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let movies of filteredMovies">
+        <a [routerLink]="['/movies/info']" [queryParams]="{'movie-id' : movies.stream_id}">{{movies.name}}</a>
+    </mat-list-item>
+</mat-list>
