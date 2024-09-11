@@ -13,7 +13,9 @@ export class SeriesService {
 
   apiUrl: string = '';
   constructor(private http: HttpClient, private _hosting: HostingService) {
-    this.apiUrl = this._hosting.buildUrl('player_api.php');
+    _hosting.hostSubject.subscribe(host => {
+      this.apiUrl = this._hosting.buildUrl('player_api.php');
+    });
   }
   getCategories(): Observable<Category[]> {
     return this.http.get<Category[]>(`${this.apiUrl}&action=get_series_categories`);

@@ -8,11 +8,15 @@ import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { MatGridListModule } from '@angular/material/grid-list';
+import { HostSelectorComponent } from './host-selector/host-selector.component';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    HostSelectorComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +24,9 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatCardModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatGridListModule
+    FormsModule,
+    MatGridListModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
