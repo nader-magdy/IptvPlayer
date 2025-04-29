@@ -19,11 +19,10 @@
             <div class="row episode">
                 <div class="col">
                     <div class="title-container">
-                        <span>Test - </span>
-                        <span class="title">episode.title</span>
+                        <span class="title"> {{ movie.movie_data.name }}</span>
                     </div>
-                    <span class="duration"> duration </span>
-                    <div>episode.info.plot</div>
+                    <span class="duration">{{ movie.info.duration }}</span>
+                    <div>{{ movie.info.plot }}</div>
                 </div>
             </div>
             
